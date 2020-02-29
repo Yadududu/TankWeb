@@ -1,0 +1,39 @@
+﻿<Commodity>
+  <Tanks>
+    <Tank name ="tank2_1" price="100" bullet="1" image="Image\Tank\2_1" model ="Models\Tank\2_1\Tank2_1" material="Models\Tank\2_1\Materials\Tank 2.1"></Tank>
+    <Tank name ="tank2_2" price="100" bullet="1" image="Image\Tank\2_2" model ="Models\Tank\2_2\Tank2_2" material="Models\Tank\2_2\Materials\Tank 2.2"></Tank>
+    <Tank name ="tank2_3" price="100" bullet="1" image="Image\Tank\2_3" model ="Models\Tank\2_3\Tank2_3" material="Models\Tank\2_3\Materials\Tank 2.3"></Tank>
+    <Tank name ="tank2_4" price="100" bullet="1" image="Image\Tank\2_4" model ="Models\Tank\2_4\Tank2_4" material="Models\Tank\2_4\Materials\Tank 2.4"></Tank>
+    <Tank name ="tank2_5" price="100" bullet="1" image="Image\Tank\2_5" model ="Models\Tank\2_5\Tank2_5" material="Models\Tank\2_5\Materials\Tank 2.5"></Tank>
+    <Tank name ="tank3_1" price="400" bullet="2" image="Image\Tank\3_1" model ="Models\Tank\3_1\Tank3_1" material="Models\Tank\3_1\Materials\Tank 3.1"></Tank>
+    <Tank name ="tank3_2" price="400" bullet="2" image="Image\Tank\3_2" model ="Models\Tank\3_2\Tank3_2" material="Models\Tank\3_2\Materials\Tank 3.2"></Tank>
+    <Tank name ="tank3_3" price="400" bullet="2" image="Image\Tank\3_3" model ="Models\Tank\3_3\Tank3_3" material="Models\Tank\3_3\Materials\Tank 3.3"></Tank>
+    <Tank name ="tank3_4" price="400" bullet="2" image="Image\Tank\3_4" model ="Models\Tank\3_4\Tank3_4" material="Models\Tank\3_4\Materials\Tank 3.4"></Tank>
+    <Tank name ="tank3_5" price="400" bullet="2" image="Image\Tank\3_5" model ="Models\Tank\3_5\Tank3_5" material="Models\Tank\3_5\Materials\Tank 3.5"></Tank>
+    <Tank name ="tank4_1" price="200" bullet="1" image="Image\Tank\4_1" model ="Models\Tank\4_1\Tank4_1" material="Models\Tank\4_1\Materials\Tank 4.1"></Tank>
+    <Tank name ="tank4_2" price="200" bullet="1" image="Image\Tank\4_2" model ="Models\Tank\4_2\Tank4_2" material="Models\Tank\4_2\Materials\Tank 4.2"></Tank>
+    <Tank name ="tank4_3" price="200" bullet="1" image="Image\Tank\4_3" model ="Models\Tank\4_3\Tank4_3" material="Models\Tank\4_3\Materials\Tank 4.3"></Tank>
+    <Tank name ="tank4_4" price="200" bullet="1" image="Image\Tank\4_4" model ="Models\Tank\4_4\Tank4_4" material="Models\Tank\4_4\Materials\Tank 4.4"></Tank>
+    <Tank name ="tank4_5" price="200" bullet="1" image="Image\Tank\4_5" model ="Models\Tank\4_5\Tank4_5" material="Models\Tank\4_5\Materials\Tank 4.5"></Tank>
+    <Tank name ="tank5_1" price="300" bullet="1" image="Image\Tank\5_1" model ="Models\Tank\5_1\Tank5_1" material="Models\Tank\5_1\Materials\Tank 5.1"></Tank>
+    <Tank name ="tank5_2" price="300" bullet="1" image="Image\Tank\5_2" model ="Models\Tank\5_2\Tank5_2" material="Models\Tank\5_2\Materials\Tank 5.2"></Tank>
+    <Tank name ="tank5_3" price="300" bullet="1" image="Image\Tank\5_3" model ="Models\Tank\5_3\Tank5_3" material="Models\Tank\5_3\Materials\Tank 5.3"></Tank>
+    <Tank name ="tank5_4" price="300" bullet="1" image="Image\Tank\5_4" model ="Models\Tank\5_4\Tank5_4" material="Models\Tank\5_4\Materials\Tank 5.4"></Tank>
+    <Tank name ="tank5_5" price="300" bullet="1" image="Image\Tank\5_5" model ="Models\Tank\5_5\Tank5_5" material="Models\Tank\5_5\Materials\Tank 5.5"></Tank>
+  </Tanks>
+  <Planes>
+    <Plane name ="plane_1" price="500" bullet="2" image="Image\Plane\1" model ="Models\Plane\1\Plane1" material="Models\Plane\1\Materials\StarSparrow_Red"></Plane>
+    <Plane name ="plane_2" price="500" bullet="2" image="Image\Plane\2" model ="Models\Plane\2\Plane2" material="Models\Plane\2\Materials\StarSparrow_Blue"></Plane>
+    <Plane name ="plane_3" price="500" bullet="2" image="Image\Plane\3" model ="Models\Plane\3\Plane3" material="Models\Plane\3\Materials\StarSparrow_Green"></Plane>
+    <Plane name ="plane_4" price="500" bullet="2" image="Image\Plane\4" model ="Models\Plane\4\Plane4" material="Models\Plane\4\Materials\StarSparrow_Black"></Plane>
+    <Plane name ="plane_5" price="500" bullet="2" image="Image\Plane\5" model ="Models\Plane\5\Plane5" material="Models\Plane\5\Materials\StarSparrow_Orange"></Plane>
+    <Plane name ="plane_6" price="500" bullet="2" image="Image\Plane\6" model ="Models\Plane\6\Plane6" material="Models\Plane\6\Materials\StarSparrow_Black"></Plane>
+    <Plane name ="plane_7" price="500" bullet="1" image="Image\Plane\7" model ="Models\Plane\7\Plane7" material="Models\Plane\7\Materials\StarSparrow_Yellow"></Plane>
+    <Plane name ="plane_8" price="500" bullet="1" image="Image\Plane\8" model ="Models\Plane\8\Plane8" material="Models\Plane\8\Materials\StarSparrow_Cyan"></Plane>
+    <Plane name ="plane_9" price="500" bullet="1" image="Image\Plane\9" model ="Models\Plane\9\Plane9" material="Models\Plane\9\Materials\StarSparrow_Purple"></Plane>
+  </Planes>
+  <Turrets>
+    <Turret name ="turret_1" price="600" bullet="1" image="Image\Turret\1" model ="Models\Turret\1\Turret1" material="Models\Turret\1\Materials\pbr_turret1"></Turret>
+    <Turret name ="turret_2" price="600" bullet="1" image="Image\Turret\2" model ="Models\Turret\1\Turret1" material="Models\Turret\1\Materials\pbr_turret2"></Turret>
+  </Turrets>
+</Commodity>
