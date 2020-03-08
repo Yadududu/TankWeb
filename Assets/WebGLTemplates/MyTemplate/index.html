@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"><!--HTML 4.01-->
+        <title>UnityName | %UNITY_WEB_NAME%</title><!--页面标题-->
+        <link rel="shortcut icon" href="TemplateData/favicon.ico"><!--页面图标-->
+        <link rel="stylesheet" href="TemplateData/style.css"><!--下面的LOGO，默认显示场景名-->
+        <script src="TemplateData/UnityProgress.js"></script><!--加载JAVAScript脚本-->
+        <script src="%UNITY_WEBGL_LOADER_URL%"></script><!--*Unity WebGL加载器的脚本标记-->
+        <script>
+            var unityInstance = UnityLoader.instantiate("unityContainer", "%UNITY_WEBGL_BUILD_URL%", { onProgress: UnityProgress });
+        </script><!--*实例化游戏的脚本(进度条)-->
+        <!--UnityLoader.instantiate(container, url, override)-->
+    </head>
+    <body onload="ChangeCanvas()" onResize="ChangeCanvas()">
+        <!--一个<div>标签，在实例化函数中使用该标识。这个div的内容将被游戏实例取代。-->
+        <div class="webgl-content" style="width:100%; height:100%">
+            <div id="unityContainer"></div>
+            <!--<div class="footer">
+                <div class="webgl-logo"></div>
+                <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+                <div class="title">%UNITY_WEB_NAME%</div>
+            </div>-->
+        </div>
+    </body>
+</html>

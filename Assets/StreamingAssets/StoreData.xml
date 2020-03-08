@@ -1,0 +1,39 @@
+<Commodity>
+  <Tanks>
+    <Tank name ="tank2_1" price="100" bullet="1" image="Tank2_1" model ="Tank2_1" material="Tank 2.1"></Tank>
+    <Tank name ="tank2_2" price="100" bullet="1" image="Tank2_2" model ="Tank2_2" material="Tank 2.2"></Tank>
+    <Tank name ="tank2_3" price="100" bullet="1" image="Tank2_3" model ="Tank2_3" material="Tank 2.3"></Tank>
+    <Tank name ="tank2_4" price="100" bullet="1" image="Tank2_4" model ="Tank2_4" material="Tank 2.4"></Tank>
+    <Tank name ="tank2_5" price="100" bullet="1" image="Tank2_5" model ="Tank2_5" material="Tank 2.5"></Tank>
+    <Tank name ="tank3_1" price="400" bullet="2" image="Tank3_1" model ="Tank3_1" material="Tank 3.1"></Tank>
+    <Tank name ="tank3_2" price="400" bullet="2" image="Tank3_2" model ="Tank3_2" material="Tank 3.2"></Tank>
+    <Tank name ="tank3_3" price="400" bullet="2" image="Tank3_3" model ="Tank3_3" material="Tank 3.3"></Tank>
+    <Tank name ="tank3_4" price="400" bullet="2" image="Tank3_4" model ="Tank3_4" material="Tank 3.4"></Tank>
+    <Tank name ="tank3_5" price="400" bullet="2" image="Tank3_5" model ="Tank3_5" material="Tank 3.5"></Tank>
+    <Tank name ="tank4_1" price="200" bullet="1" image="Tank4_1" model ="Tank4_1" material="Tank 4.1"></Tank>
+    <Tank name ="tank4_2" price="200" bullet="1" image="Tank4_2" model ="Tank4_2" material="Tank 4.2"></Tank>
+    <Tank name ="tank4_3" price="200" bullet="1" image="Tank4_3" model ="Tank4_3" material="Tank 4.3"></Tank>
+    <Tank name ="tank4_4" price="200" bullet="1" image="Tank4_4" model ="Tank4_4" material="Tank 4.4"></Tank>
+    <Tank name ="tank4_5" price="200" bullet="1" image="Tank4_5" model ="Tank4_5" material="Tank 4.5"></Tank>
+    <Tank name ="tank5_1" price="300" bullet="1" image="Tank5_1" model ="Tank5_1" material="Tank 5.1"></Tank>
+    <Tank name ="tank5_2" price="300" bullet="1" image="Tank5_2" model ="Tank5_2" material="Tank 5.2"></Tank>
+    <Tank name ="tank5_3" price="300" bullet="1" image="Tank5_3" model ="Tank5_3" material="Tank 5.3"></Tank>
+    <Tank name ="tank5_4" price="300" bullet="1" image="Tank5_4" model ="Tank5_4" material="Tank 5.4"></Tank>
+    <Tank name ="tank5_5" price="300" bullet="1" image="Tank5_5" model ="Tank5_5" material="Tank 5.5"></Tank>
+  </Tanks>
+  <Planes>
+    <Plane name ="plane_1" price="500" bullet="2" image="Plane1" model ="Plane1" material="StarSparrow_Red"></Plane>
+    <Plane name ="plane_2" price="500" bullet="2" image="Plane2" model ="Plane2" material="StarSparrow_Blue"></Plane>
+    <Plane name ="plane_3" price="500" bullet="2" image="Plane3" model ="Plane3" material="StarSparrow_Green"></Plane>
+    <Plane name ="plane_4" price="500" bullet="2" image="Plane4" model ="Plane4" material="StarSparrow_Black"></Plane>
+    <Plane name ="plane_5" price="500" bullet="2" image="Plane5" model ="Plane5" material="StarSparrow_Orange"></Plane>
+    <Plane name ="plane_6" price="500" bullet="2" image="Plane6" model ="Plane6" material="StarSparrow_Black"></Plane>
+    <Plane name ="plane_7" price="500" bullet="1" image="Plane7" model ="Plane7" material="StarSparrow_Yellow"></Plane>
+    <Plane name ="plane_8" price="500" bullet="1" image="Plane8" model ="Plane8" material="StarSparrow_Cyan"></Plane>
+    <Plane name ="plane_9" price="500" bullet="1" image="Plane9" model ="Plane9" material="StarSparrow_Purple"></Plane>
+  </Planes>
+  <Turrets>
+    <Turret name ="turret_1" price="600" bullet="1" image="Turret1" model ="Turret1" material="pbr_turret1"></Turret>
+    <Turret name ="turret_2" price="600" bullet="1" image="Turret2" model ="Turret1" material="pbr_turret2"></Turret>
+  </Turrets>
+</Commodity>

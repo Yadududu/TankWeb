@@ -1,0 +1,7 @@
+<uri>
+  <AssetBundles>
+	<scene>Game(AssetBundle)</scene>
+	<bundle>resources</bundle>
+	<path>http://127.0.0.1/AssetBundles/WebGL/</path>
+  </AssetBundles>
+</uri>

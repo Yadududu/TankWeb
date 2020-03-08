@@ -4,6 +4,8 @@ using System.Xml;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
+using System.IO;
 
 namespace Complete {
     //使用XML保存游戏信息
@@ -13,7 +15,7 @@ namespace Complete {
         private string _FilePath;
 
         private void Awake() {
-            _FilePath = Application.dataPath + "/StreamingAssets/byXML.txt"; //创建XML文件的存储路径
+            _FilePath = Application.dataPath + "/StreamingAssets/SaveData.xml"; //创建XML文件的存储路径
         }
         public override void Save() {
             XmlDocument xmlDoc = new XmlDocument(); //创建XML文档
@@ -52,7 +54,7 @@ namespace Complete {
             xmlDoc.AppendChild(root);
             xmlDoc.Save(_FilePath);
 
-            if (File.Exists(Application.dataPath + "/StreamingAssets/byXML.txt")) {
+            if (File.Exists(Application.dataPath + "/StreamingAssets/SaveData.xml")) {
                 txtTip.text = "保存成功";
                 txtTip.color = new Color(0, 1, 0.65f, 1);
             } else {
@@ -71,9 +73,30 @@ namespace Complete {
             
         }
         public override void Load() {
-            if (File.Exists(_FilePath)) {
+            StartCoroutine(LoadData());
+        }
+
+        IEnumerator LoadData() {
+            var _uri = new System.Uri(Path.Combine(Application.streamingAssetsPath, "SaveData.xml"));
+            UnityWebRequest request = UnityWebRequest.Get(_uri.AbsoluteUri);
+            yield return request.SendWebRequest();
+            if (request.isNetworkError || request.isHttpError) {
+                Debug.Log(request.error);
+
+                ScoreSystem.Get.Add(100);
+                comms[0].Init();
+                comms[0].btnBuy.onClick.Invoke();
+                comms[0].btnSelect.onClick.Invoke();
+                Debug.Log("存档文件不存在");
+            } else {
+                //StringReader sr = new StringReader(request.downloadHandler.text);
+                //string result = sr.ReadToEnd();
+                //sr.Close();
+                //Debug.Log(result);
+
+                //用XML读取文件
                 XmlDocument xmlDoc = new XmlDocument();
-                xmlDoc.Load(_FilePath);
+                xmlDoc.LoadXml(request.downloadHandler.text);
 
                 XmlNodeList nodeList = xmlDoc.GetElementsByTagName("commodity");
                 if (nodeList.Count != 0) {
@@ -94,14 +117,8 @@ namespace Complete {
                 Debug.Log(ScoreSystem.Get.totalScore);
                 XmlNodeList setting = xmlDoc.GetElementsByTagName("setting");
                 SettingUI.Get.Cover(int.Parse(setting[0].InnerText));
-            } else {
-                ScoreSystem.Get.Add(100);
-                comms[0].Init();
-                comms[0].btnBuy.onClick.Invoke();
-                comms[0].btnSelect.onClick.Invoke();
-                Debug.Log("存档文件不存在");
             }
-            
+            request.Dispose();
         }
     }
 }
