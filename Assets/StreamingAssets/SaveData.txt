@@ -1,9 +1,9 @@
 <root name="saveFile">
-  <score>104</score>
+  <score>100</score>
   <setting>1</setting>
   <commodity>
     <name>tank2_1</name>
-    <buyBtn>0</buyBtn>
+    <buyBtn>1</buyBtn>
     <selectBtn>0</selectBtn>
   </commodity>
   <commodity>
@@ -13,7 +13,7 @@
   </commodity>
   <commodity>
     <name>tank2_3</name>
-    <buyBtn>0</buyBtn>
+    <buyBtn>1</buyBtn>
     <selectBtn>0</selectBtn>
   </commodity>
   <commodity>
@@ -68,8 +68,8 @@
   </commodity>
   <commodity>
     <name>tank4_4</name>
-    <buyBtn>0</buyBtn>
-    <selectBtn>0</selectBtn>
+    <buyBtn>1</buyBtn>
+    <selectBtn>1</selectBtn>
   </commodity>
   <commodity>
     <name>tank4_5</name>
@@ -88,12 +88,12 @@
   </commodity>
   <commodity>
     <name>tank5_3</name>
-    <buyBtn>1</buyBtn>
+    <buyBtn>0</buyBtn>
     <selectBtn>0</selectBtn>
   </commodity>
   <commodity>
     <name>tank5_4</name>
-    <buyBtn>0</buyBtn>
+    <buyBtn>1</buyBtn>
     <selectBtn>0</selectBtn>
   </commodity>
   <commodity>
@@ -118,7 +118,7 @@
   </commodity>
   <commodity>
     <name>plane_4</name>
-    <buyBtn>0</buyBtn>
+    <buyBtn>1</buyBtn>
     <selectBtn>0</selectBtn>
   </commodity>
   <commodity>
@@ -128,12 +128,12 @@
   </commodity>
   <commodity>
     <name>plane_6</name>
-    <buyBtn>1</buyBtn>
+    <buyBtn>0</buyBtn>
     <selectBtn>0</selectBtn>
   </commodity>
   <commodity>
     <name>plane_7</name>
-    <buyBtn>0</buyBtn>
+    <buyBtn>1</buyBtn>
     <selectBtn>0</selectBtn>
   </commodity>
   <commodity>
@@ -154,6 +154,6 @@
   <commodity>
     <name>turret_2</name>
     <buyBtn>1</buyBtn>
-    <selectBtn>1</selectBtn>
+    <selectBtn>0</selectBtn>
   </commodity>
 </root>
